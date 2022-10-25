@@ -11,9 +11,6 @@ body {
     top: 0;
     left: 0;
 }
-body{
-    margin-top: 12vh;
-}
 *::-webkit-scrollbar,
 *::-webkit-scrollbar-thumb {
     width: 5px;
