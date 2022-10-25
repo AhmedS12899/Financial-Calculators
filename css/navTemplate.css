@@ -106,3 +106,6 @@ ul {
     border-top: 4px solid red;
     color: red;
 }
+header{
+    height: 12vh;
+}
