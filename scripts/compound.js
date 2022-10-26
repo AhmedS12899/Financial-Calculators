@@ -1,12 +1,3 @@
-// Present value Annuity
-
-// const rate = 2.5/100;
-// const year= 20;
-// let n = year * 12; //(our years compounded monthly);
-// let i = rate /12; //(2.5 is our interest rate and because we compound monthly our interest rate should reflect that)
-// const PMT = 3000;
-// const annuity = PMT * ((1/i) - (1/(i*Math.pow(1+i, n))));
-// console.log(annuity.toFixed(2));
 "use strict";
 window.onload = init;
 

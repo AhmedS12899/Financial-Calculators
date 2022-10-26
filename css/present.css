@@ -1,0 +1,30 @@
+header{
+    height: 12vh;
+}
+.col{
+    margin-bottom: 5px;
+}
+label{
+    text-transform: uppercase;
+}
+.card-body .col-12{
+    width: 100%;
+    clear: both;
+    margin-bottom: 5px;
+}
+.card-body input[type="button"]{
+    background-color: rgb(154, 143, 143);
+    border-radius: 10px;
+}
+.card-body input[type="button"]:hover{
+    background-color: rgb(241, 232, 232);
+}
+.card-body input{
+    width: 100%;
+    clear: both;
+}
+h1{
+    text-transform: uppercase ;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
