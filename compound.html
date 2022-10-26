@@ -16,7 +16,7 @@
 <body>
     <div class="has-bg-img" style="background-image: url('./Images/background_image_Calculator.jpg'); height: 100vh;">
         <!-- Created our Navbar with bootstrap -->
-        <header class="header ">
+        <header class="header">
             <nav class="navbar navbar-expand-lg header-nav fixed-top ">
                 <div class="container-fluid">
                     <!-- contains with our site name and hamburger menu-->
@@ -50,12 +50,13 @@
             </nav>
         </header>
         <main>
+            <h1 class="text-center text-white mt-3">Compound Interest Daily</h1>
             <div class="mx-auto card justify-content-center border border-danger mt-4" style="width: 20rem;">
                 <div class="card-body">
                     <div class="row">
                         <div class="col-12">
-                            <label for="principal">Principal :</label>
-                            <input type="text" id="principalField">
+                            <label for="deposit">Deposit :</label>
+                            <input type="text" id="depositField">
                         </div>
                         <div class="col-12">
                             <label for="interest">Interest Rate :</label>
@@ -70,12 +71,12 @@
                         </div>
 
                         <div class="col-12">
-                            <label for="monthly">Monthly:</label>
-                            <input type="text" id="monthlyOutput" readonly>
+                            <label for="Compound Daily">Compound Daily :</label>
+                            <input type="text" id="compoundDailyField" readonly>
                         </div>
                         <div class="col-12">
-                            <label for="monthly">Total Interest:</label>
-                            <input type="text" id="totalInterest" readonly>
+                            <label for="interest">Interest Payed :</label>
+                            <input type="text" id="outputInterestField" readonly>
                         </div>
                     </div>
                 </div>
@@ -87,7 +88,7 @@
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
 
-    <script src="scripts/mortgage.js"></script>
+    <script src="scripts/compound.js"></script>
 </body>
 
 </html>
