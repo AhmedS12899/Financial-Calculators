@@ -10,13 +10,13 @@
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
     <link rel="stylesheet" href="css/navTemplate.css">
-    <link rel="stylesheet" href="css/mortgage.css">
+    <link rel="stylesheet" href="css/temperature.css">
 </head>
 
 <body>
     <div class="has-bg-img" style="background-image: url('./Images/background_image_Calculator.jpg'); height: 100vh;">
         <!-- Created our Navbar with bootstrap -->
-        <header class="header ">
+        <header class="header">
             <nav class="navbar navbar-expand-lg header-nav fixed-top ">
                 <div class="container-fluid">
                     <!-- contains with our site name and hamburger menu-->
@@ -36,13 +36,15 @@
                                 <a class="nav-link" aria-current="page" href="mortgage.html">Mortgage</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="compound.html">Future Compound Interest</a>
+                                <a class="nav-link" aria-current="page" href="compound.html">Future Compound
+                                    Interest</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" aria-current="page" href="present.html">Present Ordinary Annuity</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="temperature.html">Temperature(F&#176/C&#176)</a>
+                                <a class="nav-link" aria-current="page"
+                                    href="temperature.html">Temperature(F&#176/C&#176)</a>
                             </li>
                         </ul>
                     </div>
@@ -50,33 +52,38 @@
             </nav>
         </header>
         <main>
-            <h1 class="text-center text-white mt-3">Mortgage Monthly Payout/Total Interest</h1>
-            <div class="mx-auto card justify-content-center border border-danger mt-4" style="width: 20rem;">
+            <h1 class="text-center text-white mt-3">Fahrenheit&#176/Celsius&#176</h1>
+            <div class=" col-4 mx-auto card justify-content-center border border-danger mt-4" style="width: 20rem;">
                 <div class="card-body">
                     <div class="row">
                         <div class="col-12">
-                            <label for="principal">Principal :</label>
-                            <input type="text" id="principalField">
-                        </div>
-                        <div class="col-12">
-                            <label for="interest">Interest Rate :</label>
-                            <input type="text" id="interestField">
-                        </div>
-                        <div class="col-12">
-                            <label for="year">Years :</label>
-                            <input type="text" id="yearField">
+                            <label for="fahrenheit">Fahrenheit(F&#176) :</label>
+                            <input type="text" id="fahrenheitField">
                         </div>
                         <div class="col-12">
                             <input type="button" id="calculateButton" value="Calculate">
                         </div>
 
                         <div class="col-12">
-                            <label for="monthly">Monthly:</label>
-                            <input type="text" id="monthlyOutput" readonly>
+                            <label for="celsiusOutput">Celsius(C&#176) :</label>
+                            <input type="text" id="celsiusOutput" readonly>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-4 mx-auto card justify-content-center border border-danger mt-4" style="width: 20rem;">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-12">
+                            <label for="celsiusField">Celsius(C&#176) :</label>
+                            <input type="text" id="celsiusField">
                         </div>
                         <div class="col-12">
-                            <label for="monthly">Total Interest:</label>
-                            <input type="text" id="totalInterest" readonly>
+                            <input type="button" id="calculateButton2" value="Calculate">
+                        </div>
+                        <div class="col-12">
+                            <label for="fahrenheitOutput">Fahrenheit(F&#176) :</label>
+                            <input type="text" id="fahrenheitOutput" readonly>
                         </div>
                     </div>
                 </div>
@@ -88,7 +95,7 @@
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
 
-    <script src="scripts/mortgage.js"></script>
+    <script src="scripts/temperature.js"></script>
 </body>
 
 </html>
